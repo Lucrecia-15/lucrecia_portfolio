@@ -1,12 +1,13 @@
-body{
+body, html{
    background: #1c0726;
-background: linear-gradient(90deg, rgba(28, 7, 38, 1) 0%, rgba(70, 30, 97, 1) 35%, rgb(193, 134, 221) 100%);
+background: linear-gradient(90deg, rgba(28, 7, 38, 1) 0%, rgba(70, 30, 97, 1) 35%, rgb(185, 117, 216) 100%);
+overflow-x: hidden;
 }
 
 
 h1, h2, h6, h5, p, label, span{
     background: #9b36bd25;
-background: linear-gradient(to right, #f1c6ff 0%, #c587e9 100%);
+background: linear-gradient(to right, #eed8f5 0%, #c8abda 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }

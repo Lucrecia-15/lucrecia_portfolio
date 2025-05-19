@@ -32,8 +32,7 @@ export const Contact = () => {
         <section id="contact" className="container py-5">
             <h2 className="text-center mb-4 mt-3">Contact Me</h2>
             <p className="text-center mb-4">
-                Feel free to reach out by phone at <strong>+34 611 891 848 </strong>
-                Or send me a message on WhatsApp.
+                Text me on WhatsApp or call:<strong> +34 611 891 848 </strong>
                 <a
                     href="https://wa.me/34611891848"
                     target="_blank"

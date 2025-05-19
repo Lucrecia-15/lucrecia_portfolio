@@ -6,8 +6,15 @@ import Contactlist from "../img/contactlist.png";
 import Forms from "../img/forms.jpg";
 import Poker from "../img/poker.jpg";
 import StarWars from "../img/starwars.png";
+import Portafolio from "../img/portfolio.jpg";
 
 export const projects = [
+    {
+        title: "Portfolio Project",
+        description: "React portfolio: About, Skills, Resume & Projects. Bootstrap + CSS.",
+        imgUrl: Portafolio,
+        repoUrl: "https://github.com/Lucrecia-15/RetroVinyl",
+    },
     {
         title: "RetroVinyl",
         description: "Full-stack music website: Flask, React, JWT, Stripe, CRUD for albums and users.",
