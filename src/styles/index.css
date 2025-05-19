@@ -13,14 +13,36 @@ background: linear-gradient(to right, #eed8f5 0%, #c8abda 100%);
 }
 
 
-.nav-item{
-background: #4E2E58;
-background: linear-gradient(to right, #4E2E58 0%, #36193A 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-
+av-link {
+  background: #4E2E58;
+  background: linear-gradient(to right, #4E2E58 0%, #36193A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
 }
 
+.nav-link:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 1px;
+}
+
+.navbar-brand .nav-item {
+  background: #4E2E58;
+  background: linear-gradient(to right, #4E2E58 0%, #36193A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.resume {
+  color: #4E2E58 !important;
+  border-color: #764585 !important;
+}
+
+.resume:hover {
+  background-color: #804a91 !important;
+  color: white !important;
+}
 
 
 .btn_purple {
