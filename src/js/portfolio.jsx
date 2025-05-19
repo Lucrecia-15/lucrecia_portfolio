@@ -13,7 +13,7 @@ export const projects = [
         title: "Portfolio Project",
         description: "React portfolio: About, Skills, Resume & Projects. Bootstrap + CSS.",
         imgUrl: Portafolio,
-        repoUrl: "https://github.com/Lucrecia-15/RetroVinyl",
+        repoUrl: "https://github.com/Lucrecia-15/lucrecia_portfolio",
     },
     {
         title: "RetroVinyl",
