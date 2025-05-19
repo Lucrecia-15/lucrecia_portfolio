@@ -1,11 +1,61 @@
-/* 
+body{
+   background: #1c0726;
+background: linear-gradient(90deg, rgba(28, 7, 38, 1) 0%, rgba(70, 30, 97, 1) 35%, rgb(193, 134, 221) 100%);
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
 
-*/
+h1, h2, h6, h5, p, label, span{
+    background: #9b36bd25;
+background: linear-gradient(to right, #f1c6ff 0%, #c587e9 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
+.nav-item{
+background: #4E2E58;
+background: linear-gradient(to right, #4E2E58 0%, #36193A 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+
+
+
+.btn_purple {
+  border: 1px solid #caabf1;
+  color: #b388eb;
+  background-color: transparent;
+  transition: 0.3s;
+  background: linear-gradient(to right, #f1c6ff 0%, #b77dd8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn_purple:hover {
+  background-color: #b388eb85;
+  color: white;
+  background: none;
+  -webkit-background-clip: unset;
+  -webkit-text-fill-color: unset;
+}
+ 
+.wapp {
+  color: white;
+  border: 1px solid #51e98bb2;
+    background: linear-gradient(to right, #f1c6ff 0%, #b77dd8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.resume {
+  border: 1px solid #f8f7fa;
+  color: #b388eb;
+  
+}
+
+.resume:hover {
+  background: none;
+}
+
+
